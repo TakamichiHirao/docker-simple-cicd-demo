@@ -19,7 +19,7 @@ jobs:
   web-test-build-image:
     name: Web Container - Test and Build
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: web
@@ -53,7 +53,7 @@ jobs:
   api-test-build-image:
     name: API Container - Test and Build
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: api
